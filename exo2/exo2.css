@@ -1,5 +1,5 @@
 .carre {
-    flex: 1;
+    flex: 1 1 200;
     background-color: rgb(78, 0, 109);
     color: yellow;
     height: 200px;
@@ -15,11 +15,12 @@ main{
     display : flex;
     flex-direction: row;
     flex-wrap: wrap;
+    max-width: 400px;
 }
 
 
 .carreCliquer {
-    flex: 1;
+    flex: 1 1 200;
     background-color : rgba(255, 0, 0, 0.685);
     transform : rotate(360deg);    
     margin : 3.75px;    

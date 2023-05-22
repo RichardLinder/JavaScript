@@ -1,0 +1,26 @@
+#container{
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+width: 600px;
+height: 600px;
+
+}
+.carre {
+    flex: 1 1 190px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+}
