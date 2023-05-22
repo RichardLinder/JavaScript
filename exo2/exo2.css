@@ -1,0 +1,32 @@
+.carre {
+    flex: 1;
+    background-color: rgb(78, 0, 109);
+    color: yellow;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    transform : rotate(-360deg);
+    transition: 100ms; 
+
+}
+main{
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.carreCliquer {
+    flex: 1;
+    background-color : rgba(255, 0, 0, 0.685);
+    transform : rotate(360deg);    
+    margin : 3.75px;    
+    width : 180px;
+    height : 180px;
+    transition: 100ms; 
+
+    
+
+}
